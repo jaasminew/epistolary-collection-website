@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.folder {
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Ensure scrollbars appear when necessary */
+}
+
+h1{
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 20px;
+  line-height: auto;
+}
+
+h2{
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.header{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+
+
+.logo{
+  padding-left: 80px;
+  padding-top: 50px;
+}
+
+.logo_text{
+  display: inline;
+  margin-right: -5px;
+}
+
+.logo_img{
+  display: inline;
+  vertical-align: top;
+  width: 20px;
+}
+
+.header a li{
+  display: table-cell;
+  padding: 50px;
+  padding-right: 100px;
+  vertical-align: middle;
+  color:#000000;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.file{
+  position: relative;
+  display: inline-block;
+}
+
+.file-text{
+  position: absolute;
+  top: 100px;
+  left: 60px;
+}
+
+.file-img-container{
+  position: absolute;
+  top: 200px;
+  left: 250px;
+}
+
+.file-img-within{
+  width: 575px;
+}
+
+/* .file-1{
+  position: fixed;
+  left: 20%;
+  bottom: 0;
+  height: 40vh; 
+  overflow: hidden; 
+} */
+
+/* .file-1-img{
+  width: 1078px;
+} */
